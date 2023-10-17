@@ -1,27 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import myimage from './360_F_233175040_hwqRyiZlQkXimeLz2AIZhajyfiU9El1m.jpg';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        <p>Some Sample Code. Push this to the remote repository.</p>
-        <p>Adding one more line</p>
-        <p>Checking if this new line is reflecting in the UI</p>
-      </header>
+    <div className="comingsoon">
+      <h1 style={{color:'green'}}><center>Coming Soon</center></h1>
+      <img src={myimage} className="myimgstyle" alt="sample information"></img>
     </div>
+
+    /* <div>
+      <div className="myproperty">Logo</div>
+    </div> */
   );
 }
 

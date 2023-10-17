@@ -17,7 +17,7 @@ function App() {
         >
           Learn React
         </a>
-        <p>Some Sample Code</p>
+        <p>Some Sample Code. Push this to the remote repository.</p>
       </header>
     </div>
   );
